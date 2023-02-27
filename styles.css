@@ -103,7 +103,7 @@ h1 {
 }
 
 .second-item button {
-  background-color: #3882f6;
+  background-color: #079241;
   border: 1px solid #3882f6;
   color: white;
   font-size: 1rem;
@@ -180,12 +180,12 @@ figcaption {
   font-weight: 700;
   text-align: right;
   padding-bottom: 2rem;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .content button {
   font-size: 2rem;
-  background-color: #3882f6;
+  background-color: #087711;
   border-radius: 0.7rem;
   padding: 0.5rem 2rem;
   margin: auto;
