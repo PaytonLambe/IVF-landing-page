@@ -60,7 +60,7 @@ li a {
 
 li a:hover {
   cursor: pointer;
-  color: blue;
+  color: #fffbd5;
 }
 
 .grid-container {
@@ -118,7 +118,7 @@ h1 {
 
 .second-item button:hover {
   cursor: pointer;
-  background-color: rgb(72, 72, 250);
+  background-color: #fffbd5;
 }
 
 .grid {
@@ -180,12 +180,12 @@ figcaption {
   font-weight: 700;
   text-align: right;
   padding-bottom: 2rem;
-  /* text-decoration: underline; */
 }
 
 .content button {
   font-size: 2rem;
-  background-color: #087711;
+  background-color: #fffbd5;
+  color: black;
   border-radius: 0.7rem;
   padding: 0.5rem 2rem;
   margin: auto;
@@ -194,7 +194,8 @@ figcaption {
 
 .content button:hover {
   cursor: pointer;
-  background-color: rgb(72, 72, 250);
+  background-color: #b20a2c;
+  color: white;
 }
 
 footer {
