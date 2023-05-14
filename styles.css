@@ -11,7 +11,12 @@ header {
 }
 
 .images {
-  background: linear-gradient(to right, #fffbd5, #b20a2c);
+  background: linear-gradient(to right, #fffbd5, #1e609e);
+}
+
+#logo {
+  height: 125px;
+  width: 200px;
 }
 
 nav {
@@ -194,12 +199,12 @@ figcaption {
 
 .content button:hover {
   cursor: pointer;
-  background-color: #b20a2c;
+  background-color: #1e609e;
   color: white;
 }
 
 footer {
-  background: linear-gradient(to right, #fffbd5, #b20a2c);
+  background: linear-gradient(to right, #fffbd5, #1e609e);
   font-size: 1.5rem;
   text-align: center;
   padding: 1.5rem;
