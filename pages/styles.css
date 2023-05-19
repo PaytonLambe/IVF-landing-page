@@ -3,7 +3,87 @@
 *::before {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
   font-family: sans-serif;
+}
+
+header {
+  padding: 0 10vw 0 10vw;
+  background-color: #262626;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar{
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+nav-branding{
+  font-size: 2rem;
+}
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fffbd5;
+}
+
+@media(max-width:768px){
+  .hamburger{
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  .nav-menu{
+    position:fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #1e609e;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item{
+    margin: 16px 0;
+  }
+
+  .nav-menu.active{
+    left: 0;
+  }
 }
 
 header {
@@ -141,6 +221,11 @@ h2 {
   padding: 2rem;
 }
 
+h3 {
+  text-align: center;
+  padding: 2rem;
+}
+
 .flex-container {
   display: flex;
   padding: 0 15vw 10vh 15vw;
@@ -246,7 +331,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #1e609e;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -256,7 +341,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #1e609e;
 }
 
 /* Add a background color and some padding around the form */
